@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+        <title>DrinkUp</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="favicon/drink_blue.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/general.css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+    a img{
+        position: absolute;
+        left: 350px;
+        top: 70px;
+    }
+    img#animation{
+        position: absolute;
+        left: 400px;
+        top: 200px;
+    }
+</style>
+    </head>
+
+    <body onLoad="MM_preloadImages('order.gif')">
+    <header class="head">
+
+        <img src="logo/drink_logo.png">
+        <article>
+            <form action="posted" method="post">
+                <h1 id="sign">Sign in:</h1>
+                <label for="username">username: </label>
+                <input id="username" name="username" tabindex="1" placeholder="username">
+                <label for="password">password:</label>
+                <input id="password" name="password" tabindex="2" placeholder="password">
+                <input type="submit" value="login" class="signin" id="submit">
+                <a id="account" href="">Create an account</a>
+            </form>
+        </article>
+
+    </header>
+
+    <main>
+        <div class="container" >
+
+                <nav>
+                  <div id="divNav">
+                        <ul>
+                            <li><a href="bars.html" id="Bars">Bars </a> </li>
+                            <li><a href="menu.html" id="Menu">Menu</a></li>
+                            <li><a href="order.html" id="OrderOnline">Order Online</a></li>
+                            <li><a href="contact_us.html" id="ContactUs">Contact us</a></li>
+                            <li><a href="advertisement.html" id="Advertisement">Advertisement</a></li>
+                            <li><a href="barmap.html" id="Map">Map</a></li>
+                            <li><a href="search.html" id="Search">Search</a></li>
+                        </ul>
+                  </div>
+                </nav>
+
+           <div id="contentDiv">
+    <div id="mainDiv">
+        
+
+            <a  href="bars.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('rollover','','order.gif',1)"><img src="click.gif" alt="didn't work" width="291" height="195" id="rollover"></a>
+
+            <img src="images/animations.gif" width="550" height="400" alt="" id="animation">
+        
+
+    </div>
+</div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <article id="copyright">
+            <small>
+                © Since 2013
+            </small>
+
+            <br>Drink it... Order online
+
+            <section id="social">
+                <a class="ir github" title="Github'daki projelerimiz" href="https://github.com">
+                    github
+                </a><a class="ir twitter" title="Twitter hesabımız" href="http://twitter.com">
+                    twitter
+                </a><a class="ir facebook" title="Facebook sayfamız" href="http://facebook.com">
+                    faceboook</a>
+
+            </section>
+        </article>
+    </footer>
+
+    </body>
+</html>

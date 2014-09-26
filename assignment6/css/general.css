@@ -1,0 +1,209 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    border: 1px solid cyan;
+    background: #97BBFF;
+    width: 100%;
+    height: 80px;
+    margin: -1px;
+    border-bottom: none;
+    border-right: none;
+}
+
+header article{
+    float: right;
+    font-size: 13px;
+    margin-right: 15px ;
+    
+    color: blue;
+    height: 45px;
+
+}
+
+header article a{
+    color: darkblue;
+}
+/*headera kadar olan*/
+
+
+
+main {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    min-height: 200px;
+    overflow: hidden;
+
+}
+main>div.container{
+    float: left;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    height: 510px;
+}
+
+main div nav{
+    border: 1px solid ;
+    display: table-cell;
+    background: lightblue;
+    width: 180px;
+    height: 100%;
+}
+main div nav div#divNav{
+
+    position: absolute;
+    top: 80px;
+
+}
+
+main div nav ul a{
+   color: red;
+   text-decoration: none;
+}
+
+
+main div nav ul a:hover{
+    font-size: 16px;
+    color: cyan;
+    text-decoration: none;
+}
+
+main div nav ul li{
+    list-style: none;
+}
+
+main div#contentDiv{
+   display: table-cell;
+   background:lavender repeat top;
+   width: 840px;
+   min-height: 500px;
+}
+
+footer{
+    border:1px solid;
+    background: darkorange;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: -2px;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+    
+}
+footer a:hover{
+    text-decoration: none;
+    color: forestgreen;
+
+}
+
+footer>article#copyright {
+    margin-left: 170px;
+}
+
+main div#mainDiv hgroup{
+    font-size: 10px;
+    margin-left: 20px;
+
+}
+main div#mainDiv>p{
+    margin-left: 21px;
+}
+
+main div#barsDiv> ul {
+    margin: 0;
+    padding: 0;
+}
+
+main div#barsDiv> ul>li{
+    padding:10px;
+    font-size: 16px;
+    display: inline-block;
+    list-style: none;
+    width: 220px;
+    border-left: 1px solid black;
+    float: left;
+}
+div#barsDiv ul li.left{
+    border: none;
+}
+
+
+
+main div#barsDiv ul>li>a{
+    color: brown;
+    text-decoration: none;
+}
+main div#barsDiv ul>li>a:hover{
+
+    text-decoration: none;
+}
+ /*menu*/
+main div#menu ul li#drinks{
+    font-weight: bold;
+    margin-right: 10px;
+}
+main div#menu ul li{
+    list-style: none;
+    display: inline;
+    border: 1px hidden ;
+    margin-left: 8px;
+}
+main div#menu ul#naviga{
+    border:3px solid;
+    margin: 0px;
+    background: orchid;
+}
+div#menu ul#vodka{
+
+}
+div#menu h3{
+    color: darkred;
+    padding-left: 10px;
+}
+div#menu ul li.price{
+    float: right;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+div#menu ul span  input.button{
+    padding-left: 6px;
+    float: right;
+    margin-right: 10px;
+}
+
+main div#menu ul li>a{
+    text-decoration: none;
+    color: blue;
+}
+main div#menu ul li>a:hover{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+main div#order>div>label{
+    float: left;
+}
+div#contentDiv div#order fieldset input#submit{
+    float: right;
+}
+div#contentDiv div#contactUs{
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+img{
+    position: absolute;
+    left: 200px;
+    top: 12px;
+}
+a#account{
+    text-decoration: none;
+    color: red;
+}

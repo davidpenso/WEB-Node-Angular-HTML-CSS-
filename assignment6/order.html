@@ -3,22 +3,14 @@
     <head>
         <title>DrinkUp</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link rel="shortcut icon" href="assignment6/favicon/drink_blue.ico" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" href="assignment6/css/general.css">
-        <style type="text/css">
-        a#try{
-                text-decoration: none;
-                position: absolute;
-                margin-top: 320px;
-                margin-left: 10px;
-        }
-        </style>
+        <link rel="shortcut icon" href="favicon/drink_blue.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/general.css">
     </head>
 
     <body>
     <header class="head">
 
-        <img src="assignment6/logo/drink_logo.png">
+        <img src="logo/drink_logo.png">
         <article>
             <form action="posted" method="post">
                 <h1 id="sign">Sign in:</h1>
@@ -39,30 +31,31 @@
                 <nav>
                   <div id="divNav">
                         <ul>
-                            <li><a href="assignment6/bars.html" id="Bars">Bars </a> </li>
-                            <li><a href="assignment6/menu.html" id="Menu">Menu</a></li>
-                            <li><a href="assignment6/order.html" id="OrderOnline">Order Online</a></li>
-                            <li><a href="assignment6/contact_us.html" id="ContactUs">Contact us</a></li>
-                            <li><a href="assignment6/advertisement.html" id="Advertisement">Advertisement</a></li>
-                            <li><a href="assignment6/barmap.html" id="Map">Map</a></li>
-                            <li><a href="assignment6/search.html" id="Search">Search</a></li>
+                            <li><a href="bars.html" id="Bars">Bars </a> </li>
+                            <li><a href="menu.html" id="Menu">Menu</a></li>
+                            <li><a href="order.html" id="OrderOnline">Order Online</a></li>
+                            <li><a href="contact_us.html" id="ContactUs">Contact us</a></li>
+                            <li><a href="advertisement.html" id="Advertisement">Advertisement</a></li>
+                            <li><a href="barmap.html" id="Map">Map</a></li>
+                            <li><a href="search.html" id="Search">Search</a></li>
                         </ul>
                   </div>
                 </nav>
+    <div id="contentDiv">
+        <div id="order">
 
-           <div id="contentDiv">
-    <div id="mainDiv">
+        <fieldset>
+            <legend>Your Orders</legend>
 
-            <hgroup>
-                <h1>Welcome, order your drinks</h1>
-                <h2>You can easily order online</h2>
-            </hgroup>
-            <p>We encourage our customers to use this app rather than waiters</p>
-            <a id="try" href="assignments.html"><h1>Assignments</h1></a>
-
-
+            <input type="submit" value="order" id="submit">
+        </fieldset>
+        <div class="comment">
+            <label  for="text">Comments:</label>
+            <textarea name="text" id="text" tabindex="1"></textarea>
+        </div>
     </div>
 </div>
+           
 
         </div>
 

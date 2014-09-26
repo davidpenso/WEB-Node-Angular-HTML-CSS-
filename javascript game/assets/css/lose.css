@@ -1,0 +1,91 @@
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0px 0px; }
+	to { background-position: 0px 1000px; }
+}
+
+
+#animate-area	{ 
+	width: 560px; 
+	height: 400px; 
+	background-image: url(policebackground.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+-webkit-animation-name: animatedBackground;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+/*.zombie1{
+	position:absolute;
+	top:20px;
+	left:0px;
+}
+.zombie2{
+	position:absolute;
+	top:20px;
+	left:80px;
+}
+.zombie3{
+	position:absolute;
+	top:20px;
+	left:160px;
+}
+.zombie4{
+	position:absolute;
+	top:20px;
+	left:240px;
+}
+.zombie5{
+	position:absolute;
+	top:20px;
+	left:320px;
+}
+.zombie6{
+	position:absolute;
+	top:20px;
+	left:400px;
+}
+.zombie7{
+	position:absolute;
+	top:20px;
+	left:480px;
+}
+.zombie8{
+	position:absolute;
+	top:20px;
+	left:560px;
+}
+
+.zombie9{
+	position:absolute;
+	top:20px;
+	left:640px;
+}
+
+.zombie10{
+	position:absolute;
+	top:20px;
+	left:720px;
+}
+.zombie11{
+	position:absolute;
+	top:20px;
+	left:800px;
+}
+.zombie12{
+	position:absolute;
+	top:20px;
+	left:880px;
+}
+.zombie13{
+	position:absolute;
+	top:20px;
+	left:960px;
+}
+.zombie14{
+	position:absolute;
+	top:20px;
+	left:1040px;
+}*/
+
