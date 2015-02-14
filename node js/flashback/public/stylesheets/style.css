@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+  margin-left: 10%;
+  font-size: 20px;
+}
+div.home { 
+  text-align: center;
+  width: 100%;
+  background-color: lightgrey;
+  
+
+
+}
+textarea{
+	display: block;
+}
+div.box{
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+	color: red;
+	text-align: center;
+	background-color: lavender;
+	margin-left: 10%;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+div.home a {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: futura;
+	color: black;
+	margin: 4%;
+	text-align: center;
+
+}
+div.home h1 {
+	text-decoration: none;
+	font-size: 36px;
+	font-family: futura;
+	color: #ff0200;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: lightgrey;
+
+}
+div.home h4 {
+	text-decoration: none;
+	font-size: 18px;
+	font-family: futura;
+	color: #aaa2a3;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #0034a4;
+
+}
+#img1{
+	margin-bottom: -5px;
+	width: 100%;
+}
+input{
+	display: block;
+}
+div.account{
+	margin:auto;
+	width: 50%;
+	background-color: lavender;
+
+}
+img {
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+img:hover{
+	width: 300px;
+}
+div#book {
+    -webkit-transition: font-size 2s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 2s;
+}
+div#book:hover{
+	font-size: 24px;
+	
+	
+}
+div#t {
+    -webkit-transition: background-color 3s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 3s;
+}
+div#t:hover{
+	background-color: yellow;
+	
+	
+}

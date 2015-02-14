@@ -1,0 +1,11 @@
+<div id="t">
+<h3> This is the pictures and your book name: {{listname}}</h3>
+</div>
+
+<div id="book">
+<a href="/book" >Go back to see all the books</a>
+</div><br><br>
+{{#each photos}}
+	<img src="{{this.url}}">
+
+{{/each}}

@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '–save',
+1 verbose cli   'mongoose-url-slugs' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ '–save', null ]
+6 verbose cache add name=undefined spec="–save" args=["–save",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '–save',
+7 verbose parsed url   path: '–save',
+7 verbose parsed url   href: '–save' }
+8 verbose cache add [ 'mongoose-url-slugs@0.0.10', null ]
+9 verbose cache add name=undefined spec="mongoose-url-slugs@0.0.10" args=["mongoose-url-slugs@0.0.10",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mongoose-url-slugs@0.0.10',
+10 verbose parsed url   path: 'mongoose-url-slugs@0.0.10',
+10 verbose parsed url   href: 'mongoose-url-slugs@0.0.10' }
+11 verbose cache add name="mongoose-url-slugs" spec="0.0.10" args=["mongoose-url-slugs","0.0.10"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '0.0.10',
+12 verbose parsed url   path: '0.0.10',
+12 verbose parsed url   href: '0.0.10' }
+13 verbose addNamed [ 'mongoose-url-slugs', '0.0.10' ]
+14 verbose addNamed [ '0.0.10', '0.0.10' ]
+15 silly lockFile 38d7024e-save –save
+16 verbose lock –save /Users/davidpeso/.npm/38d7024e-save.lock
+17 silly lockFile c990753f-mongoose-url-slugs-0-0-10 mongoose-url-slugs@0.0.10
+18 verbose lock mongoose-url-slugs@0.0.10 /Users/davidpeso/.npm/c990753f-mongoose-url-slugs-0-0-10.lock
+19 silly lockFile 38d7024e-save –save
+20 silly lockFile 38d7024e-save –save
+21 verbose addNamed [ '–save', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 0fa5ff4a-save –save@
+24 verbose lock –save@ /Users/davidpeso/.npm/0fa5ff4a-save.lock
+25 silly addNameRange { name: '–save', range: '*', hasData: false }
+26 verbose request where is /–save
+27 verbose request registry http://registry.npmjs.org/
+28 verbose request id ee97cc00248a0543
+29 verbose url raw /–save
+30 verbose url resolving [ 'http://registry.npmjs.org/', './%E2%80%93save' ]
+31 verbose url resolved http://registry.npmjs.org/%E2%80%93save
+32 verbose request where is http://registry.npmjs.org/%E2%80%93save
+33 info trying registry request attempt 1 at 22:36:09
+34 http GET http://registry.npmjs.org/%E2%80%93save
+35 verbose request where is /mongoose-url-slugs
+36 verbose request registry http://registry.npmjs.org/
+37 verbose url raw /mongoose-url-slugs
+38 verbose url resolving [ 'http://registry.npmjs.org/', './mongoose-url-slugs' ]
+39 verbose url resolved http://registry.npmjs.org/mongoose-url-slugs
+40 verbose request where is http://registry.npmjs.org/mongoose-url-slugs
+41 info trying registry request attempt 1 at 22:36:09
+42 verbose etag "271YFTMDOTG9BK2R2Z3I9Z43N"
+43 http GET http://registry.npmjs.org/mongoose-url-slugs
+44 http 404 http://registry.npmjs.org/%E2%80%93save
+45 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'cache-control': 'max-age=0',
+45 verbose headers   'content-length': '52',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   date: 'Mon, 08 Dec 2014 03:36:09 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   age: '0',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-jfk1024-JFK',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1418009769.494648,VS0,VE90' }
+46 silly registry.get cb [ 404,
+46 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=0',
+46 silly registry.get     'content-length': '52',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     date: 'Mon, 08 Dec 2014 03:36:09 GMT',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '0',
+46 silly registry.get     connection: 'keep-alive',
+46 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+46 silly registry.get     'x-cache': 'MISS',
+46 silly registry.get     'x-cache-hits': '0',
+46 silly registry.get     'x-timer': 'S1418009769.494648,VS0,VE90' } ]
+47 silly lockFile 0fa5ff4a-save –save@
+48 silly lockFile 0fa5ff4a-save –save@
+49 http 200 http://registry.npmjs.org/mongoose-url-slugs
+50 silly registry.get cb [ 200,
+50 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     etag: '"DN3IAND37UD1C6N33W1KKH28N"',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=60',
+50 silly registry.get     'content-length': '17365',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     date: 'Mon, 08 Dec 2014 03:36:09 GMT',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     connection: 'keep-alive',
+50 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1418009769.484824,VS0,VE166',
+50 silly registry.get     vary: 'Accept' } ]
+51 silly lockFile 4dc7c96e-gs-mongoose-url-slugs-0-0-10-tgz http://registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz
+52 verbose lock http://registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz /Users/davidpeso/.npm/4dc7c96e-gs-mongoose-url-slugs-0-0-10-tgz.lock
+53 verbose addRemoteTarball [ 'http://registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz',
+53 verbose addRemoteTarball   'd4d33263b2f7274ee30dba894fa9d27ee0ca1602' ]
+54 info retry fetch attempt 1 at 22:36:09
+55 verbose fetch to= /var/folders/55/l1nnzcmj1_7bprth6v_3v1q80000gn/T/npm-54405-vV68m70r/registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz
+56 http GET http://registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz
+57 http 200 http://registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz
+58 silly lockFile 4dc7c96e-gs-mongoose-url-slugs-0-0-10-tgz http://registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz
+59 silly lockFile 4dc7c96e-gs-mongoose-url-slugs-0-0-10-tgz http://registry.npmjs.org/mongoose-url-slugs/-/mongoose-url-slugs-0.0.10.tgz
+60 silly lockFile c990753f-mongoose-url-slugs-0-0-10 mongoose-url-slugs@0.0.10
+61 silly lockFile c990753f-mongoose-url-slugs-0-0-10 mongoose-url-slugs@0.0.10
+62 error 404 404 Not Found: %E2%80%93save
+62 error 404
+62 error 404 '%E2%80%93save' is not in the npm registry.
+62 error 404 You should bug the author to publish it
+62 error 404 It was specified as a dependency of 'flashback'
+62 error 404
+62 error 404 Note that you can also install from a
+62 error 404 tarball, folder, or http url, or git url.
+63 error System Darwin 13.4.0
+64 error command "node" "/usr/local/bin/npm" "install" "–save" "mongoose-url-slugs"
+65 error cwd /Users/davidpeso/Desktop/ddp278-final-project/flashback
+66 error node -v v0.10.33
+67 error npm -v 1.4.28
+68 error code E404
+69 verbose exit [ 1, true ]

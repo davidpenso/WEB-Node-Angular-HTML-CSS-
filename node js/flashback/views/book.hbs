@@ -1,0 +1,19 @@
+<h1>Create a book</h1>
+
+
+<p>You are logged in: {{session}} <a href="/">Logout</a></p>
+
+<a href="/authorize_user">Create a new Book</a>
+
+<h4>Your books</h4>
+<ul>
+	{{#each the_list}}
+		<a href = "/book/{{this.slug}}"><li>{{this.name}}</li></a>
+	{{/each}}
+</ul>
+
+
+
+
+
+
